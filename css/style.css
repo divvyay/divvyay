@@ -1,0 +1,131 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #ffffff;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #388a2a;
+    font-size: px;
+        font-family: "Homemade Apple", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #1d1285;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #000000;
+    border-color: #fff;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ffffff;
+    color: #1d1285;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    text-align: center;
+    color: #ffffff;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    color: #388a2a;
+    font-size: px;
+        font-family: "Homemade Apple", cursive;
+        font-weight: 400;
+        font-style: normal;;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ffffff;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    font-size: 20px;
+    color: #000000
+}
+
+a:hover {
+    color: #1d1285;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: "Outfit", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
